@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MainComponent from "./MainComponent";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <p>Hello World!</p>
+    <div>
+      <h1>Your App Title</h1>
+      <MainComponent />
     </div>
   );
-}
+};
 
 export default App;
